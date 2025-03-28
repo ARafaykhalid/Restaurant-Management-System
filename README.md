@@ -45,6 +45,9 @@ RestaurantManagementSystem/
 ### 🔑 Login Screen
 ![Login Screen](screenshots/login.png)
 
+### 🚩 Main Menu
+![Main Menu](screenshots/main.png)
+
 ### 🛒 Order Placement
 ![Order Placement](screenshots/order.png)
 
