@@ -7,6 +7,7 @@
 #include <chrono> // to scale time
 #include <conio.h> //console funcs like getch 
 #include <ctime> //to get time
+#include <filesystem> //to create a folder
 #include <thread> //to create threads
 // we'll guide the libraries in the PPT Slides
 
@@ -113,6 +114,11 @@ void saveEmployeesToFile(const vector<Employee> &employees, const string &filena
 
 // Function to load employees from a file
 void loadEmployeesFromFile(vector<Employee> &employees, const string &filename){
+    
+    if (!filesystem::exists("data")) { // This will create a new folder if it doesnt exist
+        filesystem::create_directory("data");
+    }
+    
     ifstream file(filename); // Open file in read mode
     if (file.is_open()){
         Employee employee;
@@ -304,7 +310,7 @@ void Restaurant(vector<Employee> &employees, string &username, string &password)
 
 int main(){
     vector<Employee> employees; // Vector to store newly registered employees or check existing ones
-    const string filename = "employees.txt"; // File to store employee data
+    const string filename = "data/employees.txt"; // File to store employee data
 
     // Load existing employee data from file
     loadEmployeesFromFile(employees, filename);
