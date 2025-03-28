@@ -60,7 +60,7 @@ RestaurantManagementSystem/
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements 
 - 🗄️ Implement database integration instead of file-based storage.
 - 🖼️ Add graphical UI using a framework like Qt or WinForms.
 - 🔑 Enhance security with password hashing.

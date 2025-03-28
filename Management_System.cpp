@@ -13,7 +13,7 @@
 
 using namespace std; //standard lib
 
-//debug cout
+//debug cout 
 template <typename T>
 void debug_cout(const T &jo_cout_kerna_hain){ //functions with single parameters, & is used to edit the original variable w/out copying it
     bool __debug = false; // Change this to false to disable debug outputs [for testing if the file is loading or not]
