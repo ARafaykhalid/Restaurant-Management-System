@@ -68,3 +68,8 @@ RestaurantManagementSystem/
 - 🖼️ Add graphical UI using a framework like Qt or WinForms.
 - 🔑 Enhance security with password hashing.
 - 📦 Improve order management with additional features.
+
+---
+
+## 🤝 Contributors
+👨‍💻 Shahmeer Ali
